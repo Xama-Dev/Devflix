@@ -13,4 +13,75 @@
     box-sizing: border-box;
 }
 
+/* Header*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
+header .header-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Banner */
+main .banner-destaque {
+    background-image: url(/img/banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-box {
+    background-color: var(--preto);
+    color: var(--branco);
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.ranking {
+    display: flex;
+}
+.ranking .selo-top-10 {
+    background-color: var(--azul);    
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+}
+
+/* Carousel */
+main .carousel{
+    width: 100%;
+    height: 500px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer .grid {
+    width: 70%;
+    height: 300px;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+}
+
+.box-link {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 150px;
+}
+
+.copyright {
+    display: flex;
+}
